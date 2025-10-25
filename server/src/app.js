@@ -19,6 +19,8 @@ app.get('/api/health', (req, res) => {
 // Routes
 const reportRouter = require('./routes/report');
 app.use('/api/report', reportRouter);
+const authRouter = require('./routes/auth');
+app.use('/api/auth', authRouter);
 
 const PORT = process.env.PORT || 5000;
 
