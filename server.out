@@ -1,3 +1,0 @@
-nohup: ignoring input
-MONGO_URI not provided. Skipping DB connection (running in fallback mode).
-Server listening on port 5000
